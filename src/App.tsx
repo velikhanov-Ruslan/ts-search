@@ -12,7 +12,7 @@ function App() {
     <Routes>
       <Route path={`/`} element={<HomePage/>}/>
       <Route path={`favorites`} element={<FavoritesPage/>}/>
-      <Route path={`*`} element={<p>Страница не найдена</p>}/>
+      <Route path={`*`} element={<HomePage/>}/>
     </Routes>
       </>
   );
