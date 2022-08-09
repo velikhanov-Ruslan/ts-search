@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 15px;
+  box-shadow: 1px 1px 1px 4px;
+  background: #b1aeae;
+  color: white;
+}
+.title {
+  font-weight: 500;
+  font-size: 24px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  a {
+    color: #525252;
+    font-weight: 500;
+    font-size: 19px;
+  }
+  > a {
+    margin-right: 10px;
+  }
+}
